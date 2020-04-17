@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+</head>
+<body>
+<header>
+    <a class="brand" href="#">whatsapp stalker</a>
+</header>
+<main>
+    <div id="currentProfile">
+        <div id="pics">
+            <img id="profile" src=""/>
+            <img id="iconState" src=""/>
+        </div>
+        <p>
+            <span id="trackedProfile"></span> is <span id="stat"></span>
+        </p>
+    </div>
+
+    <div id="btns">
+        <input id="start" class="btn btn-success mx-auto" type="button" value="start tracking">
+        <input id="stop" class="btn btn-danger mx-auto" type="button" value="stop tracking">
+    </div>
+    <hr>
+        <select id="profiles">
+            <option selected></option>
+        </select>
+    <div id="history">
+        <ul id="list"></ul>
+    </div>
+</main>
+
+<script src="js/moment.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/humanizeDuration.js"></script>
+<script src="js/popup.js"></script>
+</body>
+</html>

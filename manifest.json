@@ -1,0 +1,39 @@
+{
+	"manifest_version": 2,
+
+	"name": "WhatsApp Stalker",
+	"description": "This extension notifies you when a select group of people come online, using Whatsapp Web",
+	"version": "1.0",
+	"browser_action": {
+		"default_title":"Whatsapp Stalker",
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "icon.png",
+		"48":  "icon.png",
+		"128": "icon.jpg"
+	},
+	"web_accessible_resources": [
+		"sounds/online.mp3",
+		"sounds/offline.mp3",
+		"sounds/typing.mp3",
+		"icons/online-icon.png",
+		"icons/offline-red-icon.png",
+		"img/noImg.jpeg"
+	],
+	"content_scripts": [
+		{
+		  "matches": ["https://web.whatsapp.com/"],
+		  "js": ["js/jquery.js","js/inject.js"]
+		}
+	],
+	"background": {
+		"scripts": ["js/background.js"],
+		"persistent": true
+	},
+	"permissions": [
+		"storage",
+		"webRequest",
+		"*://*.web.whatsapp.com/"
+	]
+}

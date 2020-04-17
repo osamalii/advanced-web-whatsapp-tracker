@@ -1,0 +1,69 @@
+body{
+    width: 400px;
+    margin: 0;
+    height: 600px;
+}
+header{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: #5df97a;
+    font-size: 18px;
+}
+#start,#stop{
+    margin: 20px;
+    display: grid;
+}
+.brand{
+    font-size: 30px;
+    color: white;
+}
+#switch{
+    display: none;
+}
+
+.dots{
+    color: gray;
+    font-size: 20px;
+}
+#list{
+    margin: 0;
+    padding: 0;
+}
+.state{
+    list-style: none;
+    text-align: center;
+    min-height: 50px;
+    overflow: auto;
+}
+.duration{
+    margin-bottom: 0;
+    float: right;
+
+    color: gray;
+}
+.bg-offline{
+    background-color:#e3e3e3!important;
+}
+#profiles{
+    display: none;
+}
+#iconState{
+    width: 20px;
+    position: relative;
+    height: 20px;
+    margin: 71px 0 0 71px;
+}
+#profile{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+}
+#pics{
+    margin: 0;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
