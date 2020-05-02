@@ -1,11 +1,8 @@
 # Description
-This is a chrome extension that just monitors certain profiles to know (by soud and green/red dot in the extension's icon)when they came online/offline/typing, how much time they spend onlie/offline and how much time between when they get online and sending a new message/typing , using whatsapp web.
+This is a chrome extension that just monitors certain profiles to know (by soud and green/red dot in the extension's icon and notification)when they came online/offline/typing, how much time they spend onlie/offline and how much time between when they get online and sending a new message/typing and it calculate the average time online/offline/reply you messages, using whatsapp web.
 
 # Limitations
-- As it's already mentioned, the extension uses whatsapp web,that means if your phone is not able to reach the interface of whatsap web, it won't work properly.
-- If you try to scroll up/down the left chat-side it will take you back to the current tracking profile position this is because web whatsapp doesn't load all chats at once so to get new message notification it's necessary that the current tracking profile's chat in the left chat-side be visible.
-- No notification system as of now.
-- Selecting the users to stalk should be pretty and persistent.
+- As it's already mentioned, the extension uses whatsapp web,that means if your phone is not able to reach the interface of whatsap web, it won't work properly in this case uou will be notified.
 
 # Installation
 - Clone the git repository by using the **clone url** above.

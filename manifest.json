@@ -19,6 +19,7 @@
 		"sounds/typing.mp3",
 		"icons/online-icon.png",
 		"icons/offline-red-icon.png",
+		"icons/new-message-icon.png",
 		"img/noImg.jpeg"
 	],
 	"content_scripts": [
@@ -34,6 +35,8 @@
 	"permissions": [
 		"storage",
 		"webRequest",
+		"notifications",
+		"tabs",
 		"*://*.web.whatsapp.com/"
 	]
 }

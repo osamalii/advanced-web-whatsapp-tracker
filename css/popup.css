@@ -38,9 +38,14 @@ header{
 }
 .duration{
     margin-bottom: 0;
+    max-width: 100px;
+    min-width: 100px;
     float: right;
-
+    font-family: monospace;
     color: gray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .bg-offline{
     background-color:#e3e3e3!important;
@@ -65,5 +70,27 @@ header{
     text-align: center;
 }
 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: inherit;
+}
+.messagesIcon{
+    width: 22px;
+    height: 22px;
+}
+.online-actions{
+
+}
+
+.messag{
+    list-style: none;
+}
+.mIn{
+    background-color: aqua!important;
+}
+.mOut{
+    background-color: #0c5460!important;
+}
+#average{
     text-align: center;
 }

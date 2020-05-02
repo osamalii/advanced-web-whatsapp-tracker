@@ -1,24 +1,46 @@
 chrome.runtime.onInstalled.addListener(function () {
-    chrome.storage.local.get(['profiles'], function (result) {
+    chrome.storage.local.get(['profiles','averages'], function (result) {
         var profiles = result.profiles || [];
         if (!profiles.length) {
             chrome.storage.local.set({profiles: [],trackedProfile:null});
+        }
+        var averages = result.averages || [];
+        if(!averages.length){
+            chrome.storage.local.set({profiles:[]});
         }
     });
 
 });
 
 updatestate();
+chrome.storage.local.get(["tabId","windowId"],function (result) {
+    chrome.windows.onRemoved.addListener(function (window) {
+        console.log(window,result.windowId);
+        if(window === result.windowId){
+            chrome.storage.local.get(["profiles","trackedProfile"],function (res2) {
+                var profiles = res2.profiles;
+                var profile = returnTheElement(profiles,res2.trackedProfile);
+                console.log(profile);
+                if(profile){
 
+                    profile.history.push({
+                        state: "track stoped",
+                        stateAt: new Date().valueOf()
+                    });
+                    chrome.storage.local.set({'profiles':profiles});
+                }
+            })
+        }
+    });
+});
 
 
 function updatestate() {
     chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-        console.log(request);
         if (request.changeState) {
-            var regex = /[a-z]/g;
-            var changeState = request.changeState, f1 = changeState.match(regex);
-            chrome.storage.local.get(['profiles'], function (result) {
+            console.log(sender);
+            console.log(request.changeState);
+            chrome.storage.local.get(['profiles','trackedProfileImg'], function (result) {
                 var profiles = result.profiles;
                 var i, j;
                 for (i = 0; i < profiles.length; i++)
@@ -33,7 +55,13 @@ function updatestate() {
                         return;
                     }
 
-                    if (request.changeState === "online" || request.changeState === "offline") {
+                    if (request.changeState === "online" || request.changeState === "offline" || request.changeState === "Connection error") {
+                        chrome.notifications.create('', {
+                            title: profiles[i].name +' is :',
+                            message: request.changeState,
+                            iconUrl: result.trackedProfileImg,
+                            type: 'basic'
+                        });
                         var color = getBadgeBackColor(request.changeState);
                         chrome.browserAction.setBadgeBackgroundColor({color:color});
                         chrome.browserAction.setBadgeText({text:' '});
@@ -55,6 +83,13 @@ function updatestate() {
                             messages: request.changeState,
                             messageAt: date
                         });
+                    }else if(request.changeState === 'Sent message'){
+                        if(typeof profiles[i].history[profiles[i].history.length-1].messages === "undefined")
+                            profiles[i].history[profiles[i].history.length-1].messages = [];
+                        profiles[i].history[profiles[i].history.length-1].messages.push({
+                            messages: request.changeState,
+                            messageAt: date
+                        });
                     }
                     chrome.storage.local.set({'profiles': profiles});
                 }
@@ -69,4 +104,13 @@ function updatestate() {
 
 function getBadgeBackColor(state) {
     return state === "online" ? "#2bff00" : "#ff1500";
+}
+function returnTheElement(array,name){
+    for(var i = 0; i < array.length; i++)
+        if (array[i].name === name)
+            break;
+    if(i >= array.length){
+        return null;
+    }
+    return array[i];
 }

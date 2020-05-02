@@ -12,12 +12,17 @@
 <main>
     <div id="currentProfile">
         <div id="pics">
-            <img id="profile" src=""/>
-            <img id="iconState" src=""/>
+            <img id="profile" src="/img/noImg.jpeg"/>
+            <img id="iconState" src="/icons/offline-icon.png"/>
         </div>
         <p>
             <span id="trackedProfile"></span> is <span id="stat"></span>
         </p>
+        <div id="average">
+            <div id="average-online">average online:</div>
+            <div id="average-offline">average offline</div>
+            <div id="average-reply">average reply</div>
+        </div>
     </div>
 
     <div id="btns">
@@ -35,6 +40,10 @@
 
 <script src="js/moment.js"></script>
 <script src="js/jquery.js"></script>
+
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 <script src="js/humanizeDuration.js"></script>
 <script src="js/popup.js"></script>
 </body>

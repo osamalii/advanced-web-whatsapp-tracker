@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="888bdcda-02ec-42d4-bfb4-9e600a3a5999" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZlpHZ7n0s3m31MhIR1e6Tz6vXp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../translate_yandex" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="888bdcda-02ec-42d4-bfb4-9e600a3a5999" name="Default Changelist" comment="" />
+      <created>1585423448483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585423448483</updated>
+      <workItem from="1585423461086" duration="20859000" />
+      <workItem from="1585503942396" duration="77888000" />
+      <workItem from="1586100807369" duration="18370000" />
+      <workItem from="1586220321433" duration="14694000" />
+      <workItem from="1586238652537" duration="118835000" />
+      <workItem from="1586918078101" duration="30037000" />
+      <workItem from="1587059524176" duration="19718000" />
+      <workItem from="1587248706141" duration="12259000" />
+      <workItem from="1587294688043" duration="36976000" />
+      <workItem from="1587777018213" duration="3622000" />
+      <workItem from="1587843993417" duration="14975000" />
+      <workItem from="1587947280512" duration="34795000" />
+      <workItem from="1588382205402" duration="8623000" />
+      <workItem from="1588451976959" duration="1387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587081877057">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/1366.0.1360.768@0.0.1366.768" timestamp="1587081877057" />
+    <state x="437" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585602784057">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585602784057" />
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587079559636">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585522941703" />
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768/1366.0.1360.768@0.0.1366.768" timestamp="1587079559636" />
+    <state x="441" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588306930197">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="441" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1588306930197" />
+    <state x="461" y="119" key="FileChooserDialogImpl" timestamp="1585616741563">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="461" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1585616741563" />
+    <state x="1825" y="126" key="FileChooserDialogImpl/0.0.1366.768/1366.0.1360.768@1366.0.1360.768" timestamp="1585498758555" />
+    <state x="1547" y="6" key="SettingsEditor" timestamp="1585608136530">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1547" y="6" key="SettingsEditor/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585608136530" />
+    <state x="1489" y="91" width="1230" height="574" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587006232264">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1458" y="92" width="1176" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585608180665" />
+    <state x="1489" y="91" width="1230" height="574" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768/1366.0.1360.768@0.0.1366.768" timestamp="1587006232264" />
+    <state x="1432" y="120" width="1299" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1587006103774">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="40" y="-13" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585681710518" />
+    <state x="1432" y="120" width="1299" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.768/1366.0.1360.768@0.0.1366.768" timestamp="1587006103774" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1585782933945">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1585782933945" />
+    <state x="346" y="89" width="675" height="679" key="search.everywhere.popup" timestamp="1587949254829">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="1710" y="84" width="672" height="643" key="search.everywhere.popup/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1585608063578" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/1366.0.1360.768@0.0.1366.768" timestamp="1585439292546" />
+    <state x="346" y="89" width="675" height="679" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1587949254829" />
+  </component>
+</project>
